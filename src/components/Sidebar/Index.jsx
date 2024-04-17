@@ -5,8 +5,17 @@ const Sidebar = () => {
   const [menuToggle, setMenuToggle] = useState(false);
   return (
     <aside className={styles.sidebar}>
+      <div className={styles.logo}>
+        <h1>
+          <a href="/">TravelSoft</a>
+        </h1>
+      </div>
+      <div className={styles.balance}>
+        <span>Balance</span>
+        <p>PKR 112,202</p>
+      </div>
       <ul>
-        <li>
+        <li className={styles.active}>
           <a href="/">
             <svg
               xmlns="http://www.w3.org/2000/svg"

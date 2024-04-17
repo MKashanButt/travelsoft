@@ -2,6 +2,9 @@
 
 :root {
   --primary: #002244;
+  --danger: #BB2124;
+  --success: #22BB33;
+  --warning: #F0AD4E;
 }
 
 * {
@@ -33,6 +36,7 @@ body {
 
 .sub-content {
   width: 83%;
+  padding: 0.3rem;
   position: relative;
   height: 100vh;
   overflow: scroll;

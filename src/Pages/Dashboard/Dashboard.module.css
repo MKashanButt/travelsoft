@@ -1,0 +1,26 @@
+.dashboard .alerts {
+    width: 100%;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard .alerts .options {
+    width: calc(100% * (1/4));
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.dashboard .alerts .options:nth-child(1) {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dashboard .alerts p {
+    font-weight: bold;
+    font-size: 25px
+}

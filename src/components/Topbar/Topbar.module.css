@@ -1,31 +1,48 @@
 .topbar {
     width: 100%;
-    background-color: var(--primary);
-    color: white;
     display: flex;
     padding: 1rem 1.9rem;
     position: relative;
 }
 
-.topbar .logo {
-    width: 50%;
-}
-
 .topbar nav {
-    width: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
     position: relative;
 }
 
+.topbar nav form {
+    width: 60%;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 2px 6px rgba(136, 148, 171, 0.2), 0 24px 20px -24px rgba(71, 82, 107, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.topbar nav form input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.icon {
+    width: 16px;
+}
+
 .topbar nav .account {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     align-items: center;
     justify-self: center;
     padding: 0.5rem 1rem;
     gap: 5px;
-    background-color: white;
+    background-color: var(--primary);
     border-radius: 2rem;
-    color: black;
+    color: white;
     font-weight: bold;
     right: 0;
     cursor: pointer;
