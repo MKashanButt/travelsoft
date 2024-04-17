@@ -1,0 +1,36 @@
+.topbar {
+    width: 100%;
+    background-color: var(--primary);
+    color: white;
+    display: flex;
+    padding: 1rem 1.9rem;
+    position: relative;
+}
+
+.topbar .logo {
+    width: 50%;
+}
+
+.topbar nav {
+    width: 50%;
+    position: relative;
+}
+
+.topbar nav .account {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 0.5rem 1rem;
+    gap: 5px;
+    background-color: white;
+    border-radius: 2rem;
+    color: black;
+    font-weight: bold;
+    right: 0;
+    cursor: pointer;
+}
+
+.topbar nav .account:hover {
+    filter: brightness(0.8);
+}
